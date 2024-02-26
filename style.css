@@ -1,4 +1,4 @@
-/*Start Main Rulez*/
+/*Start Main Rules*/
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -15,7 +15,7 @@ body {
 }
 
 
-/*End Main Rulez*/
+/*End Main Rules*/
 
 /*Star Header*/
 
@@ -25,7 +25,7 @@ header .slider {
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover; 
-	height: 550PX;
+	height: 650PX;
 }
 header .slider .intro  {
 	padding-top:215px; 
@@ -51,8 +51,8 @@ header nav ul {
 	padding-left: 0;
 	float: right;
 }
-header nav ul li {float: left;padding: 10px;}
-header nav ul li a {color: #FFF;text-decoration: none;}
+header nav ul li {float: left;padding: 5px;}
+header nav ul li a {color: #f4f1f1;text-decoration: none;}
 header nav ul li a:hover {color: #ededf4;}
 
 /*End Header*/
@@ -78,7 +78,7 @@ header nav ul li a:hover {color: #ededf4;}
 /*Start About Me*/
 
 .about-me {background-color: #F2F2F2;overflow: hidden;}
-.about-me .image {width: 40%;}
+.about-me .image {width: 30%;}
 .about-me .image img {width: 100%;}
 .about-me .image img:hover {
 	-webkit-filter: grayscale(100%);
@@ -87,17 +87,17 @@ header nav ul li a:hover {color: #ededf4;}
 	-ms-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-.about-me .info {width: 60%;}
-.about-me .info h2 {margin: 35px 0 20px 50px;}
-.about-me .info > p {margin: 0px 0px 10px 50px;}
+.about-me .info {width: 70%;}
+.about-me .info h2 {margin: 10px 0 0px 0px;}
+.about-me .info > p {margin: 0px 0px 10px 0px;}
 .about-me .info p {
-	margin: 0px 0px 0px 5px;
-	line-height: 1.6;
+	margin: 0px 0px 0px 0px;
+	line-height: 1.5;
 	color: #666;
 }
 .about-me .info .Hobbies {
 	overflow: hidden;
-	margin: 25px 0 0 50px;
+	margin: 0px 0 0 50px;
 }
 .about-me .info .Hobbies > div {width: 50%;min-height: 100px;}
 
