@@ -253,38 +253,42 @@ header nav ul li a:hover {color: #ededf4;}
 
 /*Start testemonials*/
 
-.testemonials {
-	background-color: #F2F2F2;
-	padding-top:60px;
-	padding-bottom:65px;  
-	text-align: center;
-}
-.testemonials  q {	
-	color: #666;
-	font:italic bold 18px/1.8 Arial,Tahoma;
-}
-.testemonials  h3 {
-	color: #777;
-	margin-bottom:30px;
-	font-weight: bold;
-}
-.testemonials ul {
-	list-style: none;
-	padding-left: 0;
-	text-align: center;
-}
-.testemonials ul li {
-	width:15px;
-	height:15px;
-	border:2px solid #E84C3D;
-	display:inline-block; 
-}
-.testemonials ul li.active {background-color: #E84C3D;} 
-.testemonials ul li:hover{
-	background-color: #E84C3D;
-	cursor: pointer;
-	border-radius: 50%;
-}
+.testimonials {
+    position: relative;
+  }
+  
+  .testimonial-slider {
+    overflow: hidden;
+  }
+  
+  .testimonial {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .testimonial.active {
+    display: block;
+    opacity: 1;
+  }
+  
+  .testimonial-indicators {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .testimonial-indicators li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #ccc;
+    margin: 0 2px;
+  }
+  
+  .testimonial-indicators li.active {
+    background-color: #333;
+  }
+  
 
 /*End testemonials*/
 
