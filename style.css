@@ -78,7 +78,8 @@ header nav ul li a:hover {color: #ededf4;}
 /*Start About Me*/
 
 .about-me {background-color: #F2F2F2;overflow: hidden;}
-.about-me .image {width: 30%;}
+.about-me .image {width: 25%;}
+.about-me .image {margin-top: 10%;}
 .about-me .image img {width: 100%;}
 .about-me .image img:hover {
 	-webkit-filter: grayscale(100%);
