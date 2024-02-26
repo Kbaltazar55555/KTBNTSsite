@@ -1,8 +1,19 @@
 /*Start Main Rulez*/
 
-body {font-family:Arial,Tahoma;height: 1900px;pading:0px;margin:0px;}
-.container {width: 1170px;margin: auto;}
-.clearfix {clear: both;}
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 1900px;
+    padding: 0px; /* Note: There was a typo here ("pading" instead of "padding") */
+    margin: 0px;
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix {
+    clear: both;
+}
+
 
 /*End Main Rulez*/
 
@@ -21,12 +32,12 @@ header .slider .intro  {
 	text-align: center;	
 }
 header .slider .intro h2 {
-	color: #E84C3D;	
+	color: #5343eb;	
 	font-size: 45px; 
 	margin: 0 auto;
 	width: 500px;
-	border-top: 3px solid #E84C3D;
-	border-bottom:3px solid #E84C3D;
+	border-top: 3px solid #5343eb;
+	border-bottom:3px solid #5343eb;
 	padding: 15px 0;
 }
 header nav {			
@@ -34,7 +45,7 @@ header nav {
 	color: #FFF;
 	overflow: hidden;
 }
-header nav h2 span {color: #E84C3D;}
+header nav h2 span {color: #FFF;}
 header nav ul {
 	list-style: none;
 	padding-left: 0;
@@ -42,7 +53,7 @@ header nav ul {
 }
 header nav ul li {float: left;padding: 10px;}
 header nav ul li a {color: #FFF;text-decoration: none;}
-header nav ul li a:hover {color: #E84C3D;}
+header nav ul li a:hover {color: #ededf4;}
 
 /*End Header*/
 
