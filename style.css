@@ -295,43 +295,73 @@ header nav ul li a:hover {color: #ededf4;}
 
 /*Start Portfolio*/
 
+/*Start Portfolio*/
+
 .Portfolio {
-	padding-top:50px;
-	padding-bottom:70px;
-	text-align: center;  
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
 }
-.Portfolio h2 {color:#E84C3D;}
+
+.Portfolio h2 {
+    color: #E84C3D;
+}
+
 .Portfolio p {
-	line-height: 1.7;
-	color: #666;
-	margin-bottom: 35px;
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 35px;
 }
-.Portfolio .our-work {overflow: hidden;}
-.Portfolio .our-work > div{
-	width: 33.333333%;
-	margin-bottom: 10px;
+
+.Portfolio .our-work {
+    overflow: hidden;
 }
+
+.Portfolio .our-work > div {
+    width: 33.333333%;
+    margin-bottom: 10px;
+    position: relative; /* Add this line */
+}
+
 .Portfolio .our-work > div img {
-	padding: 3px;
-	background-color: #FFF;
-	border: 2px solid #CCC;
-	box-shadow: 5px 5px 6px #CCC;
-	margin-top: 0px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 2px solid #CCC;
+    box-shadow: 5px 5px 6px #CCC;
+    margin-top: 0px;
     -webkit-transition: margin 1s ease;
     -moz-transition: margin 1s ease;
     -o-transition: margin 1s ease;
     -ms-transition: margin 1s ease;
-    transition: margin 1s ease;	
+    transition: margin 1s ease;
 }
+
 .Portfolio .our-work > div img:hover {
-	cursor:pointer;
+    cursor: pointer;
     margin-left: -65px;
     -webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
+
+.hover-details {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgb(242, 229, 229);
+    padding: 10px;
+    width: 350px; /* Match the width of your images */
+    text-align: center;
+    bottom: 0; /* Adjust this as needed */
+}
+
+.f:hover .hover-details {
+    display: block;
+}
+
+
 
 /*End Portfolio*/
 
